@@ -1,0 +1,245 @@
+{
+  "Header" : {
+    "UUID" :  [ 2660801340, 3762693875, 2715711376, 994238633 ] , 
+    "Name" : "Hero", 
+    "LoaderName" : "Tileset", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 1
+  }, 
+  "Data" : {
+    "Tiles" :  [ {
+      "Key" : "Idle_Down", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 0
+        }, {
+          "X" : 32, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Idle_Left", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 16
+        }, {
+          "X" : 32, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Idle_Right", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 32
+        }, {
+          "X" : 32, 
+          "Y" : 32
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Idle_Up", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 48
+        }, {
+          "X" : 32, 
+          "Y" : 48
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Walk_Down", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 0
+        }, {
+          "X" : 64, 
+          "Y" : 0
+        }, {
+          "X" : 80, 
+          "Y" : 0
+        }, {
+          "X" : 96, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Walk_Left", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 16
+        }, {
+          "X" : 64, 
+          "Y" : 16
+        }, {
+          "X" : 80, 
+          "Y" : 16
+        }, {
+          "X" : 96, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Walk_Right", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 32
+        }, {
+          "X" : 64, 
+          "Y" : 32
+        }, {
+          "X" : 80, 
+          "Y" : 32
+        }, {
+          "X" : 96, 
+          "Y" : 32
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Walk_Up", 
+      "Value" : {
+        "ImageName" : "Top Down Character Sprite 01.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 48
+        }, {
+          "X" : 64, 
+          "Y" : 48
+        }, {
+          "X" : 80, 
+          "Y" : 48
+        }, {
+          "X" : 96, 
+          "Y" : 48
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    } ] 
+  }
+}

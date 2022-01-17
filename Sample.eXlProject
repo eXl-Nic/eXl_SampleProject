@@ -1,0 +1,14 @@
+{
+  "Header" : {
+    "UUID" :  [ 858452067, 1883857025, 4013720722, 432718274 ] , 
+    "Name" : "Sample.eXlProject", 
+    "LoaderName" : "Project", 
+    "LoaderVersion" : 1, 
+    "Hash" : 6750318, 
+    "Flags" : 0
+  }, 
+  "Data" : {
+    "PlayerArchetype" :  [ 3468735788, 1397163633, 3260533381, 1200720967 ] , 
+    "ProjectTypes" :  [  ] 
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "Header" : {
+    "UUID" :  [ 4100864140, 1531162677, 260626866, 4255954499 ] , 
+    "Name" : "TestMap", 
+    "LoaderName" : "Map", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 0
+  }, 
+  "Data" : {
+    "Tiles" :  [ {
+      "m_Type" : "Wall", 
+      "m_Tileset" : {
+        "ResourceType" : "Tileset", 
+        "ResourceID" :  [ 290745927, 4215784256, 4042253184, 2891173928 ] 
+      }, 
+      "m_Tiles" :  [ {
+        "m_Position" : {
+          "X" : -535, 
+          "Y" : 309
+        }, 
+        "m_Layer" : 3, 
+        "m_Name" : "Door_T"
+      }, {
+        "m_Position" : {
+          "X" : -536, 
+          "Y" : 310
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Pillar_T"
+      }, {
+        "m_Position" : {
+          "X" : -568, 
+          "Y" : 296
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Lantern_Lit"
+      }, {
+        "m_Position" : {
+          "X" : -504, 
+          "Y" : 296
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Lantern_Lit"
+      }, {
+        "m_Position" : {
+          "X" : -450, 
+          "Y" : 303
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Lock_T"
+      }, {
+        "m_Position" : {
+          "X" : -450, 
+          "Y" : 308
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Door_T"
+      }, {
+        "m_Position" : {
+          "X" : -568, 
+          "Y" : 248
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -504, 
+          "Y" : 248
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -568, 
+          "Y" : 184
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -504, 
+          "Y" : 184
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -56, 
+          "Y" : 248
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : 8, 
+          "Y" : 248
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -56, 
+          "Y" : 200
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : 8, 
+          "Y" : 200
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : -56, 
+          "Y" : 152
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      }, {
+        "m_Position" : {
+          "X" : 8, 
+          "Y" : 152
+        }, 
+        "m_Layer" : 1, 
+        "m_Name" : "Block"
+      } ] 
+    } ] , 
+    "Terrain" :  [ {
+      "Terrain" : "Wall", 
+      "TilingGroup" :  [ 1646915405, 3007819952, 2415357581, 810699417 ] , 
+      "Blocks" :  [ {
+        "Shape" : {
+          "Border" :  [ {
+            "X" : -42, 
+            "Y" : -23
+          }, {
+            "X" : -42, 
+            "Y" : 24
+          }, {
+            "X" : 7, 
+            "Y" : 24
+          }, {
+            "X" : 7, 
+            "Y" : -23
+          }, {
+            "X" : -42, 
+            "Y" : -23
+          } ] , 
+          "Holes" :  [  [ {
+            "X" : 3, 
+            "Y" : 19
+          }, {
+            "X" : -37, 
+            "Y" : 19
+          }, {
+            "X" : -37, 
+            "Y" : -19
+          }, {
+            "X" : 3, 
+            "Y" : -19
+          } ]  ] 
+        }, 
+        "Layer" : 0
+      } ] 
+    }, {
+      "Terrain" : "Floor", 
+      "TilingGroup" :  [ 2384910602, 1732297647, 2362830491, 760255298 ] , 
+      "Blocks" :  [ {
+        "Shape" : {
+          "Border" :  [ {
+            "X" : 3, 
+            "Y" : -19
+          }, {
+            "X" : -37, 
+            "Y" : -19
+          }, {
+            "X" : -37, 
+            "Y" : 19
+          }, {
+            "X" : 3, 
+            "Y" : 19
+          }, {
+            "X" : 3, 
+            "Y" : -19
+          } ] , 
+          "Holes" :  [  ] 
+        }, 
+        "Layer" : 0
+      } ] 
+    } ] , 
+    "Objects" : 
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "Header" : {
+    "UUID" :  [ 1646915405, 3007819952, 2415357581, 810699417 ] , 
+    "Name" : "Walls", 
+    "LoaderName" : "TilingGroup", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 0
+  }, 
+  "Data" : {
+    "Tileset" :  [ 290745927, 4215784256, 4042253184, 2891173928 ] , 
+    "DefaultTile" : "Wall", 
+    "Patterns" :  [ {
+      "Name" : "B_Border", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 3, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : -1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "Undefined", "OtherGroup", "Undefined", "SameGroup", "SameGroup", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_Border_B", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "L_Border", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 3
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : -1
+        }, 
+        "pattern" :  [ "Undefined", "SameGroup", "OtherGroup", "SameGroup", "Undefined", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_Border_L", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "TR_Corner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "SameGroup", "OtherGroup", "OtherGroup", "Undefined" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_OuterCorner_TR", 
+          "m_Position" : {
+            "X" : 0, 
+            "Y" : 0
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "BR_Corner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "OtherGroup", "Undefined", "SameGroup", "OtherGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_OuterCorner_BR", 
+          "m_Position" : {
+            "X" : 0, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "TL_Corner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "OtherGroup", "SameGroup", "Undefined", "OtherGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_OuterCorner_TL", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 0
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "BL_Corner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "Undefined", "OtherGroup", "OtherGroup", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_OuterCorner_BL", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "BR_InnerCorner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "SameGroup", "SameGroup", "OtherGroup", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_InnerCorner_BR", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 0
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "R_Border", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 3
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : -1
+        }, 
+        "pattern" :  [ "SameGroup", "Undefined", "SameGroup", "OtherGroup", "SameGroup", "Undefined" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_Border_R", 
+          "m_Position" : {
+            "X" : 0, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "BL_InnerCorner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "SameGroup", "SameGroup", "SameGroup", "OtherGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_InnerCorner_BL", 
+          "m_Position" : {
+            "X" : 0, 
+            "Y" : 0
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "TL_InnerCorner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "SameGroup", "OtherGroup", "SameGroup", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_InnerCorner_TL", 
+          "m_Position" : {
+            "X" : 0, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "T_Border", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 3, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : -1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "SameGroup", "SameGroup", "SameGroup", "Undefined", "OtherGroup", "Undefined" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_Border_T", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 0
+          }
+        } ] 
+      }
+    }, {
+      "Name" : "TR_InnerCorner", 
+      "Data" : {
+        "patternSize" : {
+          "X" : 2, 
+          "Y" : 2
+        }, 
+        "anchor" : {
+          "X" : 1, 
+          "Y" : 1
+        }, 
+        "pattern" :  [ "OtherGroup", "SameGroup", "SameGroup", "SameGroup" ] , 
+        "drawElement" :  [ {
+          "m_Name" : "Wall_InnerCorner_TR", 
+          "m_Position" : {
+            "X" : 1, 
+            "Y" : 1
+          }
+        } ] 
+      }
+    } ] 
+  }
+}

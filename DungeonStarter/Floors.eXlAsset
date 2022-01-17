@@ -1,0 +1,15 @@
+{
+  "Header" : {
+    "UUID" :  [ 2384910602, 1732297647, 2362830491, 760255298 ] , 
+    "Name" : "Floors", 
+    "LoaderName" : "TilingGroup", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 0
+  }, 
+  "Data" : {
+    "Tileset" :  [ 290745927, 4215784256, 4042253184, 2891173928 ] , 
+    "DefaultTile" : "Floor", 
+    "Patterns" :  [  ] 
+  }
+}

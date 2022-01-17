@@ -1,0 +1,1287 @@
+{
+  "Header" : {
+    "UUID" :  [ 290745927, 4215784256, 4042253184, 2891173928 ] , 
+    "Name" : "Dungeon", 
+    "LoaderName" : "Tileset", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 1
+  }, 
+  "Data" : {
+    "Tiles" :  [ {
+      "Key" : "Block", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 80
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Chest_Opened", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 80
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Chest_Closed", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 80
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Door_D", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 32, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 8, 
+          "Y" : 64
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : -0.5
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Door_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 32
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 40
+        } ] , 
+        "Offset" : {
+          "X" : -0.5, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Door_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 32
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 40
+        } ] , 
+        "Offset" : {
+          "X" : 0.5, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Door_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 32, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 8, 
+          "Y" : 48
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0.5
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_B", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 192
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_BL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 192
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_BR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 192
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 176
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 176
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 160
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_TL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 160
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Fence_TR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 160
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Floor", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lantern_Lit", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "Loop", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 160
+        }, {
+          "X" : 80, 
+          "Y" : 176
+        }, {
+          "X" : 80, 
+          "Y" : 192
+        }, {
+          "X" : 80, 
+          "Y" : 208
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lantern_Unlit", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 176
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "LitFloor", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 256
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "LitFloor_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 240
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lock_B", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 20, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 62, 
+          "Y" : 112
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : -1
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lock_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 20
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 174
+        } ] , 
+        "Offset" : {
+          "X" : -1, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lock_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 20
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 174
+        } ] , 
+        "Offset" : {
+          "X" : 1, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Lock_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 20, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 62, 
+          "Y" : 96
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 1
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pillar_B", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 20
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 62
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pillar_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 20, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 80
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pillar_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 20, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 12, 
+          "Y" : 96
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pillar_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 20
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 128
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_Border_B", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 144
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_Border_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 128
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_Border_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 128
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_Border_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 112
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_InnerCorner_BL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 144
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_InnerCorner_BR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 144
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_InnerCorner_TL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 112
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_InnerCorner_TR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 112
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Pit_Narrow", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 96
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Plate_Off", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 240
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Plate_On", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 240
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Stairs", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 128
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Stairs_2", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 8
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 144
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0.5
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 80, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_Border_B", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_Border_L", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_Border_R", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_Border_T", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 16, 
+          "Y" : 32
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_InnerCorner_BL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 32
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_InnerCorner_BR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 32
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_InnerCorner_TL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 0, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_InnerCorner_TR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 32, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_OuterCorner_BL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_OuterCorner_BR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 0
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_OuterCorner_TL", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 64, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    }, {
+      "Key" : "Wall_OuterCorner_TR", 
+      "Value" : {
+        "ImageName" : "DungeonStarter.png", 
+        "FrameDuration" : 0.15, 
+        "Size" : {
+          "X" : 16, 
+          "Y" : 16
+        }, 
+        "AnimationType" : "None", 
+        "Frames" :  [ {
+          "X" : 48, 
+          "Y" : 16
+        } ] , 
+        "Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "Scale" : {
+          "X" : 1, 
+          "Y" : 1
+        }
+      }
+    } ] 
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Header" : {
+    "UUID" :  [ 3468735788, 1397163633, 3260533381, 1200720967 ] , 
+    "Name" : "MainChar", 
+    "LoaderName" : "Archetype", 
+    "LoaderVersion" : 1, 
+    "Hash" : 3452816845, 
+    "Flags" : 0
+  }, 
+  "Data" : {
+    "Properties" :  [ {
+      "Name" : "GfxSpriteComponentDesc", 
+      "Instanced" : "false", 
+      "Data" : {
+        "m_Tileset" : {
+          "ResourceType" : "Tileset", 
+          "ResourceID" :  [ 2660801340, 3762693875, 2715711376, 994238633 ] 
+        }, 
+        "m_TileName" : "Idle_Down", 
+        "m_Tint" : {
+          "X" : 1, 
+          "Y" : 1, 
+          "Z" : 1, 
+          "W" : 1
+        }, 
+        "m_Size" : {
+          "X" : 0.125, 
+          "Y" : 0.125
+        }, 
+        "m_Offset" : {
+          "X" : 0, 
+          "Y" : 0
+        }, 
+        "m_AnimSpeed" : 1, 
+        "m_Layer" : 0, 
+        "m_RotateSprite" : "false", 
+        "m_Flat" : "false"
+      }
+    }, {
+      "Name" : "CharacterDescription", 
+      "Instanced" : "false", 
+      "Data" : {
+        "m_Control" : "Navigation", 
+        "m_MaxSpeed" : 10
+      }
+    }, {
+      "Name" : "ObjectShape", 
+      "Instanced" : "false", 
+      "Data" : {
+        "m_Shapes" :  [ {
+          "m_Type" : "Sphere", 
+          "m_Dims" : {
+            "X" : 1, 
+            "Y" : 1, 
+            "Z" : 1
+          }, 
+          "m_Offset" : {
+            "X" : 0, 
+            "Y" : 0, 
+            "Z" : 0
+          }
+        } ] 
+      }
+    } ] , 
+    "Components" :  [ "GfxSprite", "Character" ] 
+  }
+}
